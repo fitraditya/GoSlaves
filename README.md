@@ -1,17 +1,16 @@
 # GoSlaves
 
+This repository forked from its original repository (github.com/dgrr/GoSlaves) because it has been removed.
+
 GoSlaves is a simple golang's library which can handle wide list of tasks asynchronously and safely.
 
-[![GoDoc](https://godoc.org/github.com/dgrr/GoSlaves?status.svg)](https://godoc.org/github.com/dgrr/GoSlaves)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dgrr/goslaves)](https://goreportcard.com/report/github.com/dgrr/goslaves)
-
-![alt text](https://raw.githubusercontent.com/dgrr/GoSlaves/master/logo.png)
+![alt text](https://raw.githubusercontent.com/fitraditya/GoSlaves/master/logo.png)
 
 Installation
 ------------
 
 ```
-$ go get -u -v -x github.com/dgrr/GoSlaves
+$ go get -u -v -x github.com/fitraditya/GoSlaves
 ```
 
 Benchmark
@@ -57,7 +56,7 @@ import (
   "fmt"
   "net"
 
-  "github.com/dgrr/GoSlaves"
+  "github.com/fitraditya/GoSlaves"
 )
 
 func main() {
